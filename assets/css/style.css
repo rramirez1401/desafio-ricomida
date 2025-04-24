@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+html{
+
+    margin: 0;
+    padding: 0;
+}
+
+#marca {
+    font-family: "Lobster";
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 17%;
+    font-size: 37pt;
+}
+
+
+#imgPrincipal {
+    width: 482px;
+    max-width: 100%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#inicioParrafo {
+    text-align: center;
+    max-width: 425px;
+    max-height: 201px;
+ 
+    padding-left: 10px;
+}
