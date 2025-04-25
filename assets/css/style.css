@@ -18,7 +18,7 @@ html{
 
 
 #imgPrincipal {
-    width: 482px;
+    width: 550px;
     max-width: 100%;
     display: flex;
     padding-left: 10%;
@@ -29,13 +29,34 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 #inicioParrafo {
-    text-align: center;
     max-width: 425px;
     max-height: 201px;
- 
+    padding-top: 2%;
     padding-left: 10px;
+}
+
+#hr1 {
+    
+    justify-self: center;
+    opacity: 1;
+    width: 344px;
+}
+
+#hr2 {
+    opacity: 1;
+    width: 344px;
+}
+
+#hr3 {
+    opacity: 1;
+    width: 482px;
+}
+
+#divhr {
+    display: flex;
+
 }
