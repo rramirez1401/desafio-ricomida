@@ -60,3 +60,13 @@ html{
     display: flex;
 
 }
+
+#btnslide {
+    background-color: black;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    border: 0;
+
+}
