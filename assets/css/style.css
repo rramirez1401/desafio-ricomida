@@ -10,6 +10,7 @@ html{
 
 body {
     font-family: Cabin;
+    color: black;
     font-weight: 400;
     font-size: 16pt;
 }
@@ -20,6 +21,10 @@ body {
     font-style: normal;
     padding-left: 17%;
     font-size: 37pt;
+}
+
+#navbar {
+    height: 60px;
 }
 
 
@@ -86,7 +91,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 #ingredientes {
@@ -114,6 +119,10 @@ body {
     justify-self: center;
     opacity: 1;
     width: 344px;
+}
+
+#cards {
+    padding-top: 60px;
 }
 
 #newsletter1 {

@@ -17,3 +17,25 @@ $('#btnnews1').click(function(){
 $('#btnnews2').click(function(){
     alert("Gracias por suscribirte a nuestro Newsletter")
 })
+
+
+$('#cc1').on('dblclick', changeColor);
+$('#cc2').on('dblclick', changeColor);
+
+function changeColor(){
+    var tColor = $(this).css("color");
+     if (tColor == "rgb(33, 37, 41)"){
+        $(this).css('color', 'red')
+    }
+    else{
+        $(this).css('color', 'black')
+    } 
+        
+}
+
+
+/* 
+
+$('idseccion').click(function(){
+    $('idseccion').toggle()
+}) */
