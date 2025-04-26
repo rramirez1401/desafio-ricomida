@@ -13,6 +13,12 @@ body {
     color: black;
     font-weight: 400;
     font-size: 16pt;
+    padding-top: 80px;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
 }
 
 #marca {
@@ -23,9 +29,6 @@ body {
     font-size: 37pt;
 }
 
-#navbar {
-    height: 60px;
-}
 
 
 #imgPrincipal {
