@@ -68,5 +68,8 @@ html{
     height: 13px;
     padding: 0;
     border: 0;
+}
 
+#listaingredientes {
+    list-style-type: none;
 }
