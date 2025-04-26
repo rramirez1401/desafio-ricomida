@@ -10,3 +10,10 @@ $('#btn1').click(function(){
 $('#btn2').click(function(){
     alert("Añadido a favoritos :) ")
 })
+
+$('#btnnews1').click(function(){
+    alert("Gracias por suscribirte a nuestro Newsletter")
+})
+$('#btnnews2').click(function(){
+    alert("Gracias por suscribirte a nuestro Newsletter")
+})

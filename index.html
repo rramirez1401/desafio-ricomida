@@ -16,8 +16,8 @@
 
     <nav class="navbar navbar-expand-lg" style="background-color: #373A3C"; data-bs-theme="dark";>
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" id="marca">
-                <p style="margin: 0;">Ricomida</p>
+            <a class="navbar-brand" href="#" >
+                <p id="marca" style="margin: 0;">Ricomida</p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,12 +52,12 @@
                     <hr id="hr2" class="d-lg-none ">
                     <hr id="hr3" class="d-none d-lg-block">
                 </div>
-                <p>110 MIN / 6 A 8 PORCIONES</p>
+                <p style="font-weight: 700;">110 MIN / 6 A 8 PORCIONES</p>
                 <div id="inicioBotones">
-                    <button id="btn1" type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar tu correo">
+                    <button id="btn1" type="button" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar tu correo">
                         Enviar por correo
                     </button>
-                    <button id="btn2" type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Agrega esta receta a tus favoritos">
+                    <button id="btn2" type="button" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Agrega esta receta a tus favoritos">
                         Añadir a favoritos
                     </button>
                 </div>
@@ -73,7 +73,7 @@
                   <button type="button" id="btnslide" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn btn-secondary" aria-label="Slide 2"></button>
             
                 </div>
-                <div class="carousel-inner py-5">
+                <div class="carousel-inner" style="padding-bottom: 3%;">
                   <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
                         <img src="assets/img/slider-1.png" width="233px" height="170px" class="d-block mx2" alt="...">
@@ -102,10 +102,11 @@
             </div>
         </div>
 
-        <div id="receta" class="d-flex justify-content-center">
-            <div id="ingredientes" class="col-5">
+        <div id="receta">
+            <div id="ingredientes" class="text-lg-start">
                 <ul id="listaingredientes">
                     <li><h3>INGREDIENTES</h3></li>
+                    <hr style="width: 200px; opacity: 1;">
                     <li><p>Masa</p></li>
                     <li>20 gr de levadura seca instantánea</li>
                     <li>1 cucharadita de azúcar</li>
@@ -131,21 +132,88 @@
                 </ul>
             </div>
 
-            <div id="preparacion" class="col-5">
-                <h3 style="padding-left: 2%;">PREPARACIÓN</h3>
+            <div id="preparacion" class="px-lg-0 px-4">
+                <h3 style="padding-left: 4%;">PREPARACIÓN</h3>
+                <hr style="width: 200px; opacity: 1; margin-left: 4%;">
                 <ol style="padding-right: 5%;">
-                    <li>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.</li>
-                    <li>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.</li>
-                    <li>Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. </li>
-                    <li>Calentar el horno a 220C.</li>
-                    <li>Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.</li>
+                    <li>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.</li><br>
+                    <li>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.</li><br>
+                    <li>Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. </li><br>
+                    <li>Calentar el horno a 220C.</li><br>
+                    <li>Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.</li><br>
                     <li>Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</li>
                 </ol>
             </div>
-
         </div>
 
+
+        <div class="text-center">
+            <div class="my-2">
+                <hr id="hr4" class="d-none d-lg-block">
+                <hr id="hr5" class="d-block d-lg-none">
+            </div>
+            <h2>RECETAS RELACIONADAS</h2>
+            <div id="cards" class="container d-flex justify-content-center my-5">
+                <div class="row row-cols-1 row-cols-lg-3">
+                    <div class="col my-2">
+                        <div class="card" style="margin: 0 auto; width: 316px;">
+                            <img src="assets/img/recipe-card-1.png" class="card-img-top" style="width: 316px; height: 180px; max-width: 100%;">
+                            <div class="card-body text-start">
+                                <h5 style="padding: 0 8% 0 3%;">PANQUEQUES CON MANJAR Y CREMA</h5>
+                                <p class="card-text px-2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-2">
+                        <div class="card h-100" style="margin: 0 auto; width: 316px;">
+                            <img src="assets/img/recipe-card-2.png" class="card-img-top" style="width:auto; height: 180px;">
+                            <div class="card-body text-start">
+                                <h5 style="padding: 0 8% 0 3%;">TIRAMISÚ</h5>
+                                <p class="card-text px-2">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-2">
+                        <div class="card h-100" style="margin: 0 auto; width: 316px;">
+                            <img src="assets/img/recipe-card-3.png" class="card-img-top" style="height: 180px;">
+                            <div class="card-body text-start">
+                                <h5 style="padding: 0 8% 0 3%;">PLATEADA</h5>
+                                <p class="card-text px-2">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <div class="d-none d-lg-block">
+                <div id="newsletter1" class="d-flex justify-content-center align-items-center ">
+                    <div style="color: #ffffff;" class="text-center">
+                        <h2 style="margin: 0; font-size: 40pt;">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
+                        <p style="padding-right: 1%; font-size: 30pt;">y obtén las mejores recetas que tenemos en <span style="font-family: Lobster; font-weight: 400;">Ricomida</span></p>
+                        <button id="btnnews1" type="button" class="btn btn-outline-light"><p style="margin: 0; padding: 0 100px 0 100px;">Empezar</p></button>
+                    </div>            
+                </div>
+            </div>
+            
+            <div class="d-block d-lg-none">
+                <div id="newsletter2" class="d-flex justify-content-center align-items-center">
+                    <div style="color: #ffffff;" class="text-center">
+                        <h2 style="margin: 0; font-size: 30pt; padding-bottom: 25px;">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
+                        <p style="font-size: 20pt;">y obtén las mejores recetas que tenemos en <span style="font-family: Lobster; font-weight: 400;">Ricomida</span></p>
+                        <button id="btnnews2" type="button" class="btn btn-outline-light"><p style="margin: 0; padding: 0 100px 0 100px;">Empezar</p></button>
+                    </div>            
+                </div>
+            </div>
+            
+        </div>
+        
     </main>
+
+    <footer class="d-flex align-items-center justify-content-center">
+        <p id="marcafooter" style="margin: 0;">Ricomida</p>
+    </footer>
 
 
 </body>
