@@ -69,18 +69,3 @@ $('#card3').click(function(){
 
 });
 
-
-
-
-
-
-
-/* $('#card2').click(function(){
-    $('#imgCard2, #pCard2').toggle()
-    $('#receta2').css('height', 'auto')
-});
-
-$('#card3').click(function(){
-    $('#imgCard3, #pCard3').toggle()
-    $('#receta3').css('height', 'auto')
-}); */
